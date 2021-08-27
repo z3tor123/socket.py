@@ -12,19 +12,19 @@ if x == 1:
     ip = socket.gethostbyname(hostname)
     print("---------------------")
     print( hostname + " ip = " + str(ip))
-        
+    exit()
 
 if x == 2:
     port_name = input("Enter the port name : ")
     port = socket.getservbyname(port_name)
     print("----------------------")
     print( port_name + " port number : " + str(port))
-        
+    exit()
 if x == 3:
     port_number = int(input("Enter the port number : "))
     service = socket.getservbyport(port_number)
     print("-----------------------")
     print( str(port_number) + " port name : " + service)
-else:
-    print("Fuck you ! (:")
     exit()
+else:
+    print("(:")
