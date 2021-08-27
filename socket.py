@@ -25,3 +25,6 @@ if x == 3:
     service = socket.getservbyport(port_number)
     print("-----------------------")
     print( str(port_number) + " port name : " + service)
+else:
+    print("Fuck you ! (:")
+    exit()
