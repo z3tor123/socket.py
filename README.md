@@ -1,1 +1,1 @@
-# socket.py
+this 2 scan hosts and ports
