@@ -6,7 +6,7 @@ print("1) scan host")
 print("2) scan name_port")
 print("3) scan number_port")
 print("---------------------")
-x = int(input("what you wan't ( 1 - 2 -3 ) : "))
+x = int(input( "( 1 - 2 -3 ) ? : "))
 if x == 1:
     hostname = input("Enter the hostname : ")
     ip = socket.gethostbyname(hostname)
