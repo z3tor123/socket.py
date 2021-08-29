@@ -9,3 +9,12 @@ find the port by name
 find the port by the number
 
 ![image](https://user-images.githubusercontent.com/72771279/131179001-dd0acf0f-4dad-49d7-9a8a-1cca7e4d4cee.png)
+
+-------
+
+if you get this error :
+
+![image](https://user-images.githubusercontent.com/72771279/131262043-06d960a9-1708-4754-8215-96794850846b.png)
+
+( sudo apt install socket ) 
+done .
