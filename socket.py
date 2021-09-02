@@ -13,10 +13,11 @@ if x == 1:
     print("---------------------")
     print( hostname + " ip = " + str(ip))
     q2 = input("want 2 exit ( y - n )")
-    if q2 == "y" or "yes" or "Y" or "Yes":
+    if q2 == "y":
         exit()
-    elif q2 == "n" or "no" or "N" or "No":
-        time.sleep(9999999999999999)
+    elif q2 == "n":
+        while True:
+            time.sleep(1)
 
 if x == 2:
     port_name = input("Enter the port name : ")
@@ -24,10 +25,11 @@ if x == 2:
     print("----------------------")
     print( port_name + " port number : " + str(port))
     q1 = input("want 2 exit ( y - n )")
-    if q1 == "y" or "yes":
+    if q1 == "y":
         exit()
     elif q1 == "n":
-        time.sleep(9999999999999999)
+        while True:
+            time.sleep(1)
     exit() 
 if x == 3:
     port_number = int(input("Enter the port number : "))
@@ -35,9 +37,10 @@ if x == 3:
     print("-----------------------")
     print( str(port_number) + " port name : " + service)
     q3 = input("want 2 exit ( y - n )")
-    if q3 == "y" or "yes":
+    if q3 == "y":
         exit()
     elif q3 == "n":
-        time.sleep(9999999999999999)
+        while True:
+            time.sleep(1)
 else:
     print("(:")
